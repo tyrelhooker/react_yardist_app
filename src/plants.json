@@ -1,0 +1,604 @@
+{
+  "data": [
+    {
+      "Scientific Name": "Liriope muscari",
+      "Common Name": [
+        "Big Blue",
+        "Big Blue Lilyturf",
+        "Big Blue Liriope",
+        "Giant Lilyturf",
+        "Lilyturf Liriope"
+      ],
+      "problems": "anthracnose, leaf and crown rot, slugs and snails",
+      "Phonetic Spelling": "lih-RYE-oh-pee mus-KAY-ree",
+      "Cultivars / Varieties": [
+        {
+          "name": "Evergreen Giant"
+        },
+        {
+          "name": "Marc Anthony"
+        },
+        {
+          "name": "Royal Purple"
+        },
+        {
+          "name": "Silver Sun"
+        },
+        {
+          "name": "Silvery Sunproof"
+        },
+        {
+          "name": "Vriegata"
+        },
+        {
+          "name": "Webster"
+        }
+      ],
+      "Genus": "Liriope",
+      "Species": "muscari",
+      "Family": "Asparagaceae",
+      "Life Cycle": "Perennial",
+      "Propagation Strategy": "No Data",
+      "Wildlife Value": "Deer and rabbit resistant",
+      "Play Value": [
+        "Defines Paths",
+        "Textural"
+      ],
+      "Dimensions": {
+        "Height": "1 ft. 6 in. - 2 ft. 0 in.",
+        "Width": "0 ft. 8 in. - 1 ft. 0 in."
+      },
+      "Plant Type": [
+        "Ground Cover",
+        "Poisonous"
+      ],
+      "Woody Plant Leaf Characteristics": "Broadleaf Evergreen",
+      "Habit/Form": "Clumping",
+      "Growth Rate": "Medium",
+      "Maintenance": "Low",
+      "Texture": "Medium",
+      "Light": {
+        "Full sun": "(6 or more hours of direct sunlight a day)",
+        "Partial Shade": "(Direct sunlight only part of the day, 2-6 hours)"
+      },
+      "Soil Texture": [
+        "Clay",
+        "Loam (Silt)",
+        "Sand",
+        "Shallow Rocky"
+      ],
+      "Soil pH": [
+        "Acid (<6.0)",
+        "Neutral (6.0-8.0)"
+      ],
+      "Soil Drainage": [
+        "Good Drainage",
+        "Moist",
+        "Occasionally Dry"
+      ],
+      "Available Space To Plant": "Less than 12 inches",
+      "$schema": [
+        "Coastal",
+        "Mountains",
+        "Piedmont"
+      ],
+      "USDA Plant Hardiness Zone": [
+        "5a",
+        "5b",
+        "6b",
+        "6a",
+        "7a",
+        "7b",
+        "8a",
+        "8b",
+        "9a",
+        "9b",
+        "10a",
+        "10b"
+      ]
+    },
+    {
+      "scientific Name": "Alstroemeria",
+      "common name": [
+        "Lily-of-the-Incas",
+        "Parrot Lily",
+        "Peruvian Lily",
+        "Princess Lily"
+      ],
+      "phonetic spelling": "al-stro-MER-ee-ah",
+      "problems": "There are few diseases and pest issues with these plants.  If aphids, spider mites or whiteflies appear, it is probably due to over or under-watering.  In that case, root rot may appear, and snails may affect the plants' overall health.  Yellowing leaves may be an indication of under-watering.",
+      "Cultivars / Varieties": [
+        {
+          "name": "Annica",
+          "flower color": "Purple flower",
+          "height": "24\""
+        },
+        {
+          "name": "Antarctica",
+          "flower color": "White flower",
+          "height": "12-24\""
+        },
+        {
+          "name": "Apollo",
+          "flower color": "White-yellow flowers",
+          "height": "32-40\""
+        },
+        {
+          "name": "Azula",
+          "flower color": "Purple flowers",
+          "height": "32-38\""
+        },
+        {
+          "name": "Bali",
+          "flower color": "Golden-apricot flowers",
+          "height": "32\""
+        },
+        {
+          "name": "Butterscotch",
+          "flower color": "Pinkish/apricot flowers",
+          "height": "36-48\""
+        },
+        {
+          "name": "Cahors",
+          "flower color": "Pink-yellow flowers.",
+          "height": "No Data"
+        },
+        {
+          "name": [
+            "Casablanca",
+            "Alstroemeria Casablanca"
+          ],
+          "flower color": "White flower",
+          "height": "32-40\""
+        },
+        {
+          "name": "Celine",
+          "flower color": "Pale pink, yellow flowers.",
+          "height": "No Data"
+        },
+        {
+          "name": "Cerise",
+          "flower color": "Pale pink flower",
+          "height": "24\""
+        },
+        {
+          "name": "Champagne",
+          "flower color": "Antique white",
+          "height": "36-48\""
+        },
+        {
+          "name": "Cleo",
+          "flower color": "Purple flowers",
+          "height": "32\""
+        },
+        {
+          "name": [
+            "Colorita",
+            "Colorita Ariane"
+          ],
+          "flower color": "Yellow, dwarf variety",
+          "height": "No Data"
+        },
+        {
+          "name": "Colorita Claire",
+          "flower color": "Snowy white. Dwarf variety.",
+          "height": "No Data"
+        },
+        {
+          "name": "Colorita Elaine",
+          "flower color": "Pink with gold and maroon dots and dashes. Dwarf variety.",
+          "height": "No Data"
+        },
+        {
+          "name": "Compact Red",
+          "flower color": "Cherry red flowers",
+          "height": "18-24\""
+        },
+        {
+          "name": "Coronet",
+          "flower color": "Salmon/yellow flowers.",
+          "height": "No Data"
+        },
+        {
+          "name": "Dr. Salter's hybrids",
+          "flower color": "No Data",
+          "height": "No Data"
+        },
+        {
+          "name": "Dusty Rose",
+          "flower color": "Pale pink/yellow flowers",
+          "height": "30\""
+        },
+        {
+          "name": "Dwarf Fuchsia",
+          "flower color": "Fuchsia flower",
+          "height": "15-22\""
+        },
+        {
+          "name": "Elvira",
+          "flower color": "Off-white flowers",
+          "height": "30-36\""
+        },
+        {
+          "name": "Flaming Star",
+          "flower color": "Orange flower",
+          "height": "32\""
+        },
+        {
+          "name": "Fougere",
+          "flower color": "White/purple flower",
+          "height": "24-36\""
+        },
+        {
+          "name": "Freedom",
+          "flower color": "Pink/pale yellow flower",
+          "height": "24-30\""
+        },
+        {
+          "name": "Friendship",
+          "flower color": "Yellow flushed pink flowers",
+          "height": "20\""
+        },
+        {
+          "name": "Glory of the Andes",
+          "flower color": "Yellow/rust tip flowers",
+          "height": "32-38\""
+        },
+        {
+          "name": "Henry's Violet",
+          "flower color": "Violet flowers",
+          "height": "36\""
+        },
+        {
+          "name": "Inca Bandit",
+          "flower color": "Deep salmon flower",
+          "height": "15-18\""
+        },
+        {
+          "name": "Inca Glow",
+          "flower color": "Pink flower",
+          "height": "16-18\""
+        },
+        {
+          "name": "Inca Ice",
+          "flower color": "Pale pink flower",
+          "height": "24-32\""
+        },
+        {
+          "name": "Inca Joli",
+          "flower color": "Orange/red flower",
+          "height": "16-20\""
+        },
+        {
+          "name": "Inca Lake",
+          "flower color": "Pale purple flower",
+          "height": "12-16\""
+        },
+        {
+          "name": "Inca Lolly",
+          "flower color": "Deep pink flower",
+          "height": "12\" dwarf"
+        },
+        {
+          "name": "Inca Mambo",
+          "flower color": "Orange/yellow flower",
+          "height": "16-18\""
+        },
+        {
+          "name": "Inca Pulse",
+          "flower color": "Deep orange flower",
+          "height": "18-24\""
+        },
+        {
+          "name": "Inca Sweety",
+          "flower color": "White/pink flower",
+          "height": "12\" dwarf"
+        },
+        {
+          "name": "Inca Tropic",
+          "flower color": "Bright orange/yellow flower",
+          "height": "24-28\""
+        },
+        {
+          "name": "Inca Vito",
+          "flower color": "Red flower",
+          "height": "8-10\" dwarf"
+        },
+        {
+          "name": "Indian Summer",
+          "flower color": "Orange-yellow flowers, Variegated foliage",
+          "height": "24-28\""
+        },
+        {
+          "name": "Koice",
+          "flower color": "Light peach flowers",
+          "height": "18\""
+        },
+        {
+          "name": "Koncajoli",
+          "flower color": "Orange/red flower",
+          "height": "12-24\""
+        },
+        {
+          "name": "Lavender Blush",
+          "flower color": "Pink-lilac-rose flowers",
+          "height": "30\""
+        },
+        {
+          "name": "Magic White",
+          "flower color": "White flower",
+          "height": "12-24\""
+        },
+        {
+          "name": "Margaret",
+          "flower color": "Bright pink/yellow flowr",
+          "height": "40-48\""
+        },
+        {
+          "name": "Marjorie's Hybrid",
+          "flower color": "Mauve-salmon-gold flowers",
+          "height": "30\""
+        },
+        {
+          "name": "Mars",
+          "flower color": "Scarlet flowers",
+          "height": "24-36\""
+        },
+        {
+          "name": "Mauve Majesty",
+          "flower color": "Purple/white flower",
+          "height": "30\""
+        },
+        {
+          "name": "Meyer's Rose",
+          "flower color": "Pink flowers",
+          "height": "30\""
+        },
+        {
+          "name": "Moulin Rouge",
+          "flower color": "Orange/yellow flower",
+          "height": "20-28\""
+        },
+        {
+          "name": "Nehi Grape",
+          "flower color": "Purple/white flower",
+          "height": "12-18\""
+        },
+        {
+          "name": "Orange Gem",
+          "flower color": "Orange flowers",
+          "height": "No Data"
+        },
+        {
+          "name": "Orange Glory",
+          "flower color": "Orange flowers.",
+          "height": "No Data"
+        },
+        {
+          "name": "Oriana",
+          "flower color": "Salmon/yellow flowers.",
+          "height": "No Data"
+        },
+        {
+          "name": "Pacific Sunset",
+          "flower color": [
+            "Apricot",
+            "Dark Pink",
+            "Hot Pink",
+            "Medium Pink",
+            "Peachy Orange"
+          ],
+          "height": "18-42\", depending on color"
+        },
+        {
+          "name": "Patricia Lynn",
+          "flower color": "Bright pink",
+          "height": "24\""
+        },
+        {
+          "name": "Perfect Orange",
+          "flower color": "Orange flower",
+          "height": "36-42\""
+        },
+        {
+          "name": "Prima Donna",
+          "flower color": "Pasta poink flower",
+          "height": "24-36\""
+        },
+        {
+          "name": "Princes Ariane",
+          "flower color": "Butter-yellow flowers",
+          "height": "12-24\""
+        },
+        {
+          "name": "Princess Amina",
+          "flower color": "Orange flowers",
+          "height": "12-24\""
+        },
+        {
+          "name": "Princess Angela",
+          "flower color": "Bright pink flower",
+          "height": "9-12\""
+        },
+        {
+          "name": "Princess Anouska",
+          "flower color": "Purple/white flower",
+          "height": "10-12\""
+        },
+        {
+          "name": "Princess Diana",
+          "flower color": "Bright yellow flower",
+          "height": "8-12\""
+        },
+        {
+          "name": "Princess Eliane",
+          "flower color": "Bright pink flower",
+          "height": "9-12\""
+        },
+        {
+          "name": "Princess Fabiana",
+          "flower color": "Cream flower",
+          "height": "10-12\""
+        },
+        {
+          "name": "Princess Felicia",
+          "flower color": "Yellow flower",
+          "height": "10-12\""
+        },
+        {
+          "name": "Princess Ivana",
+          "flower color": "Rosy pink flower",
+          "height": "12-24\""
+        },
+        {
+          "name": "Princess Letizia",
+          "flower color": "Deep red blooms with yellow throats.",
+          "height": "No Data"
+        },
+        {
+          "name": "Princess Louise",
+          "flower color": "Purple/pink flower",
+          "height": "8-12\""
+        },
+        {
+          "name": "Princess Mathilde",
+          "flower color": "Peachy-orange flower",
+          "height": "12-24\""
+        },
+        {
+          "name": "Princess Sara",
+          "flower color": "Pale orange flowers with pink and yellow with highlights",
+          "height": "10-12\""
+        },
+        {
+          "name": "Princess Victoria",
+          "flower color": "Coral-yellow flowers",
+          "height": "30\""
+        },
+        {
+          "name": "Rachael",
+          "flower color": "Purple flowers",
+          "height": "24\""
+        },
+        {
+          "name": "Red Sensation",
+          "flower color": "Red flower",
+          "height": "30\""
+        },
+        {
+          "name": "Red Valley",
+          "flower color": "Red-scarlet",
+          "height": "30\""
+        },
+        {
+          "name": "Saturne",
+          "flower color": "Coral-pink flower",
+          "height": "24-36\""
+        },
+        {
+          "name": "Summer Breeze",
+          "flower color": "Orange-yellow blossoms, variegated foliage.",
+          "height": "No Data"
+        },
+        {
+          "name": "Sunlight",
+          "flower color": "Creamy-yellow flower",
+          "height": "12-24\""
+        },
+        {
+          "name": "Sussex Gold",
+          "flower color": "Golden-yellow flowers.",
+          "height": "32-38\""
+        },
+        {
+          "name": "Sweet Laura",
+          "flower color": "Yellow with orange-red flower",
+          "height": "24-30\""
+        },
+        {
+          "name": "Tessa",
+          "flower color": "Hot pink flower",
+          "height": "40-48\""
+        },
+        {
+          "name": "The Third Harmonic",
+          "flower color": "Golden yellow flower",
+          "height": "30-42\""
+        },
+        {
+          "name": "Variegata",
+          "flower color": "Green/burgandy flower",
+          "height": "15-30\""
+        },
+        {
+          "name": "Watermellon",
+          "flower color": "Pink/yellow flower",
+          "height": "28-36\""
+        },
+        {
+          "name": "Yellow Friendship",
+          "flower color": "Yellow flower",
+          "height": "32-40\""
+        }
+      ],
+      "Genus": "Alstroemeria",
+      "Species": "No Data",
+      "Family": "Alstroemeriaceae",
+      "Life Cycle": "Perennial",
+      "Propagation Strategy": [
+        "Division",
+        "Seed"
+      ],
+      "Wildlife Value": "Attracts birds and pollinators",
+      "Play Value": [
+        "Attractive Flowers",
+        "Attracts Pollinators",
+        "Easy to Grow"
+      ],
+      "Dimensions": {
+        "Height": "1 ft. 0 in. - 4 ft. 0 in.",
+        "Width": "1 ft. 0 in. - 2 ft. 0 in"
+      },
+      "Plant Type": [
+        "Bulb",
+        "Herbaceous Perennial",
+        "Perennial",
+        "Poisonous"
+      ],
+      "Woody Plant Leaf Characteristics": "Deciduous",
+      "Habit/Form": "Erect",
+      "Growth Rate": "Medium",
+      "Maintenance": "Medium",
+      "Texture": "Medium",
+      "Light": {
+        "Full sun": "(6 or more hours of direct sunlight a day)",
+        "Partial Shade": "(Direct sunlight only part of the day, 2-6 hours)"
+      },
+      "Soil Texture": [
+        "Sand"
+      ],
+      "Soil pH": [
+        "No Data"
+      ],
+      "Soil Drainage": [
+        "Good Drainage",
+        "Moist"
+      ],
+      "Available Space To Plant": "12 inches - 3 feet",
+      "$schema": [
+        "Coastal",
+        "Piedmont"
+      ],
+      "USDA Plant Hardiness Zone": [
+        "7a",
+        "7b",
+        "8a",
+        "8b",
+        "9a",
+        "9b",
+        "10a",
+        "10b"
+      ]
+    }
+  ]
+}
