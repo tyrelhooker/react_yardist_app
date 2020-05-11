@@ -585,7 +585,7 @@
         "Moist"
       ],
       "Available Space To Plant": "12 inches - 3 feet",
-      "$schema": [
+      "NC Region": [
         "Coastal",
         "Piedmont"
       ],
@@ -599,6 +599,71 @@
         "10a",
         "10b"
       ]
+    },
+    {
+
+      "Scientific Name": "Elaegnus x ebbengii ‘Viveleg’ PP20177",
+      "Common Name": [
+        "Olive Martini Elaeagnus"
+      ],
+      "problems": "No Data",
+      "Phonetic Spelling": "el-ee-AG-nus EBB-eng-ee-eye",
+      "Cultivars / Varieties": [
+
+      ],
+      "Genus": "Elaeagnus",
+      "Species": "No Data",
+      "Family": "Elaeagnaceae",
+      "Life Cycle": "Perennial",
+      "Propagation Strategy": "Stem Cutting",
+      "Wildlife Value": "No Data",
+      "Play Value": [
+       
+      ],
+      "Dimensions": {
+        "Height": "10 ft. 0 in. - 15 ft. 0 in.",
+        "Width": "10 ft. 0 in. - 15 ft. 0 in."
+      },
+      "Plant Type": [
+        "Hedge",
+        "Slope"
+      ],
+      "Woody Plant Leaf Characteristics": "Broadleaf Evergreen",
+      "Habit/Form": "Upright",
+      "Growth Rate": "Rapid",
+      "Maintenance": "Low",
+      "Texture": "Medium",
+      "Light": {
+        "Full sun": "(6 or more hours of direct sunlight a day)",
+        "Partial Shade": "(Direct sunlight only part of the day, 2-6 hours)"
+      },
+      "Soil Texture": [
+        "Clay",
+        "Loam (Silt)",
+        "Sand"
+      ],
+      "Soil pH": [
+        "No Data"
+      ],
+      "Soil Drainage": [
+        "Good Drainage"
+      ],
+      "Available Space To Plant": ["At least 10 ft. center to center for hedge", "15 ft. center-to-center for foundational planting"],
+      "NC Region": [
+        "Coastal",
+        "Piedmont"
+      ],
+      "USDA Plant Hardiness Zone": [
+        "6a",
+        "6b",
+        "7a",
+        "7b",
+        "8a",
+        "8b",
+        "9a",
+        "9b"
+      ]
     }
+    
   ]
 }
