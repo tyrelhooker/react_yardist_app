@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import data from './plant_data.json';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App staticPlantData={data} />
   </React.StrictMode>,
   document.getElementById('root')
 );

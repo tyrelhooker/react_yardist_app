@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "Scientific Name": "Liriope muscari",
+      "scientific_name": "Liriope muscari",
       "Common Name": [
         "Big Blue",
         "Big Blue Lilyturf",
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "scientific Name": "Alstroemeria",
+      "scientific_name": "Alstroemeria",
       "common name": [
         "Lily-of-the-Incas",
         "Parrot Lily",
@@ -602,7 +602,7 @@
     },
     {
 
-      "Scientific Name": "Elaegnus x ebbengii ‘Viveleg’ PP20177",
+      "scientific_name": "Elaegnus x ebbengii ‘Viveleg’ PP20177",
       "Common Name": [
         "Olive Martini Elaeagnus"
       ],

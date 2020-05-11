@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import StaticPlants from './components/StaticPlants';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App({ staticPlantData }) {
   const [myPlants, setMyPlants] = useState([]);
   const [inputValue, setInputValue] = useState('');
+
+  console.log(staticPlantData);
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -46,6 +49,10 @@ function App() {
           <li>{plant}</li>
         )}
       </ul>
+      <hr></hr>
+      <div className="static-plants-box">
+        <StaticPlants staticPlantData={staticPlantData.data} />
+      </div>
     </div>
   );
 }
