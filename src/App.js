@@ -51,7 +51,10 @@ function App({ staticPlantData }) {
       </ul>
       <hr></hr>
       <div className="static-plants-box">
-        <StaticPlants staticPlantData={staticPlantData.data} />
+        {staticPlantData.data.map((staticPlant, i) =>
+          <StaticPlants key={i} {...staticPlant} />
+        )}
+        
       </div>
     </div>
   );

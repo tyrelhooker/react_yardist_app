@@ -2,25 +2,22 @@ import React from 'react';
 
 
 
-const StaticPlants = ({ staticPlantData }) => {
+const StaticPlants = ({ scientific_name, common_name }) => {
   // const nameNormalizer = (name) => name.toLowerCase().replace(/ /g, "_"); 
 
-  const savedPlants = staticPlantData;
+  // const savedPlants = staticPlantData;
+  console.log(scientific_name);
   
   return (
-    // <p>{savedPlants[1]["common name"]}</p>
-    savedPlants.map((plant, i) => 
-      <div key={i}>
-        <h2>{plant.scientific_name}</h2>
-        
-        <div className="common-name">
-          <h3>Common Name</h3>
-          {plant.common_name.map((com_name, j) =>
-            <p key={j}>{`${com_name}`}</p>
-          )}
-        </div>
+    <div>
+      <h2>{scientific_name}</h2>
+      <div className="common-name">
+        <h3>Common Name</h3>
+        {common_name.map((com_name, j) =>
+          <p key={j}>{`${com_name}`}</p>
+        )}
       </div>
-    )
+    </div>
   )
 }
 
