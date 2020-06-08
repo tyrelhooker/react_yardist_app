@@ -3,7 +3,8 @@ import React from 'react';
 
 
 const StaticPlants = ({ scientific_name, common_name }) => {
-  // const nameNormalizer = (name) => name.toLowerCase().replace(/ /g, "_"); 
+  const nameNormalizer = (name) => 
+    name.toLowerCase().replace(/ /g, "_"); 
 
   // const savedPlants = staticPlantData;
   console.log(scientific_name);
