@@ -8,6 +8,7 @@ import PlantsList from './components/PlantsList';
 
 function App({ staticPlantData }) {
   const [plants, setPlants] = useState([]);
+
   const addPlant = (scientificName, commonName) => {
     const newPlants = [
       ...plants,
@@ -20,11 +21,16 @@ function App({ staticPlantData }) {
     setPlants(newPlants);
   }
 
+  const removePlant = (id) => {
+    const revisedPlants = plants.filter( plant => plant.id !== id );
+    setPlants(revisedPlants);
+  }
+
 
   return (
     <div className="App">
       <AddPlantForm onNewPlant={addPlant} />
-      <PlantsList plants={plants} />
+      <PlantsList plants={plants} onRemove={removePlant} />
     </div>
   );
 }
