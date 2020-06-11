@@ -1,4 +1,5 @@
 import React from 'react';
+import '../stylesheets/PlantList.scss'
 
 const PlantsList = ({ plants=[], onRemove=f =>f }) => 
   <div className='plants'>

@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import PropTypes from 'prop-types';
-import { findAllByTitle } from '@testing-library/react';
-// import '../stylesheets/AddPlantForm.scss';
+// import { findAllByTitle } from '@testing-library/react';
+import '../stylesheets/AddPlantForm.scss';
 
 const AddPlantForm = ({ onNewPlant= f=>f }) => {
   const scientificNameInput = useRef();

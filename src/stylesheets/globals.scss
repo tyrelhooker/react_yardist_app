@@ -1,0 +1,22 @@
+$light-green: rgb(48, 109, 57);
+$light-grey: rgba(255, 255, 255, 1);
+
+
+$break-sm: 700px;
+$break-md: 1100px;
+$break-lg: 1600px;
+$break-xl: 2000px;
+
+@mixin clear {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin shadow {
+  box-shadow: 3px, 3px, 8px, 1px darken($light-green, 20%);
+}
+
+@mixin fade-bg($from, $to) {
+  background: $from;
+  background: linear-gradient(to bottom, $from 0%, $to 100%);
+}

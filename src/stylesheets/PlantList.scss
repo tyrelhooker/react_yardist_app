@@ -1,0 +1,13 @@
+@import "globals";
+
+div.plants {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+section.plant {
+  @include shadow;
+  border: 2px solid darken($light-green, 40%);
+}

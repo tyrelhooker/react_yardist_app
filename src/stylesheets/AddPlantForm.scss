@@ -1,0 +1,13 @@
+@import "globals";
+
+form.add-plant {
+  width: 100%;
+  display: flex;
+}
+
+input, button {
+  margin: 5px;
+  padding: 3px;
+  font-size: 14pt;
+  border-radius: 5px;
+}
