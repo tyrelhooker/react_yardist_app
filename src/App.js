@@ -8,7 +8,9 @@ import Count from './components/Count';
 import './stylesheets/App.scss';
 
 function App({ staticPlantData }) {
-  const [plants, setPlants] = useState([]);
+  const initializePlants = localStorage.getItem('storagePlants') || [];
+
+  const [plants, setPlants] = useState(initializePlants);
   const [count, setCount] = useState(0);
 
   const handleDecrement = () =>
@@ -17,7 +19,7 @@ function App({ staticPlantData }) {
   const handleIncrement = () =>
     setCount(currentCount => currentCount + 1);
 
-  useEffect(() => setCount(currentCount => currentCount + 1), [])
+  
 
   const addPlant = (scientificName, commonName) => {
     const newPlants = [
@@ -31,14 +33,19 @@ function App({ staticPlantData }) {
     setPlants(newPlants);
   }
 
+  
+
   const removePlant = (id) => {
     const revisedPlants = plants.filter( plant => plant.id !== id );
     setPlants(revisedPlants);
   }
 
+  useEffect(() => localStorage.setItem('storagePlants', plants), [plants]);
+
 
   return (
     <div className="App">
+      {console.log({plants})}
       <Count testCount={count} onDecrement={handleDecrement} onIncrement={handleIncrement}/>
       <AddPlantForm onNewPlant={addPlant} />
       <PlantsList plants={plants} onRemove={removePlant} />
