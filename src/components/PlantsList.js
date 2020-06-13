@@ -1,7 +1,9 @@
 import React from 'react';
 import '../stylesheets/PlantList.scss'
 
-const PlantsList = ({ plants=[], onRemove=f =>f }) => 
+const PlantsList = ({ plants, onRemove=f =>f }) => 
+  // <div>{plants.map((plant) => <p>{plant.id}</p>)}</div>
+ 
   <div className='plants'>
     {plants.map(plant => (
       <section className='plant' key={plant.id}>
@@ -14,5 +16,6 @@ const PlantsList = ({ plants=[], onRemove=f =>f }) =>
     ))}
       
   </div>
+
 
 export default PlantsList;

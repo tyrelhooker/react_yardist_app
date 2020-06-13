@@ -7,17 +7,26 @@ import Count from './components/Count';
 
 import './stylesheets/App.scss';
 
-function App({ staticPlantData }) {
-  const initializePlants = localStorage.getItem('storagePlants') || [];
+const App = () => {
 
-  const [plants, setPlants] = useState(initializePlants);
-  const [count, setCount] = useState(0);
+  // window.onunload = () => window.localStorage.clear();
+
+  // const initializePlants = localStorage.getItem('storedPlants');
+  const initializeCount = JSON.parse(localStorage.getItem('storedCount')) || 0;
+
+  const [plants, setPlants] = useState([]);
+  const [count, setCount] = useState(initializeCount);
 
   const handleDecrement = () =>
     setCount(currentCount => currentCount - 1);
   
   const handleIncrement = () =>
     setCount(currentCount => currentCount + 1);
+  
+  useEffect(() => {
+    localStorage.setItem('storedCount', JSON.stringify(count));
+    console.log(localStorage);
+    }, [count]);
 
   
 
@@ -40,7 +49,14 @@ function App({ staticPlantData }) {
     setPlants(revisedPlants);
   }
 
-  useEffect(() => localStorage.setItem('storagePlants', plants), [plants]);
+  useEffect(() => {
+    localStorage.setItem('storedPlants', plants);
+    // plants.map(plant => JSON.stringify(plant)));
+    console.log(localStorage); 
+    // setPlants(localStorage.getItem('storedPlants'))
+  }, [plants]);
+
+
 
 
   return (
