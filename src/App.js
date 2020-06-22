@@ -3,7 +3,7 @@ import { v4 } from 'uuid';
 import AddPlantForm from './components/AddPlantForm';
 import PlantsList from './components/PlantsList';
 // import StaticPlants from './components/StaticPlants';
-import Count from './components/Count';
+// import Count from './components/Count';
 
 import './stylesheets/App.scss';
 
@@ -23,8 +23,9 @@ function useLocalStorage(key, initialValue) {
   });
 
   const setValue = value => {
-    try{
+    try {
       // Allow value to be a function to have same API as useState
+      console.log(value);
       const valueToStore = 
         value instanceof Function ? value(storedValue) : value;
       // Save state
@@ -39,26 +40,22 @@ function useLocalStorage(key, initialValue) {
 }
 
 
+
 const App = () => {
-
-  // window.onunload = () => window.localStorage.clear();
-
-  // const initializePlants = localStorage.getItem('storedPlants');
-  const initializeCount = JSON.parse(localStorage.getItem('storedCount')) || 0;
-
+  // Plants
   const [plants, setPlants] = useLocalStorage('storedPlants', []);
-  const [count, setCount] = useState(initializeCount);
+  // const [count, setCount] = useState(initializeCount);
 
-  const handleDecrement = () =>
-    setCount(currentCount => currentCount - 1);
+  // const handleDecrement = () =>
+  //   setCount(currentCount => currentCount - 1);
   
-  const handleIncrement = () =>
-    setCount(currentCount => currentCount + 1);
+  // const handleIncrement = () =>
+  //   setCount(currentCount => currentCount + 1);
   
-  useEffect(() => {
-    localStorage.setItem('storedCount', JSON.stringify(count));
-    console.log(localStorage);
-    }, [count]);
+  // useEffect(() => {
+  //   localStorage.setItem('storedCount', JSON.stringify(count));
+  //   console.log(localStorage);
+  //   }, [count]);
 
   
 
@@ -86,22 +83,21 @@ const App = () => {
   //   // plants.map(plant => JSON.stringify(plant)));
   //   console.log(localStorage); 
   //   // setPlants(localStorage.getItem('storedPlants'))
-  // }, [plants]);
+  // }, []);
 
 
 
 
   return (
     <div className="App">
-      {console.log({plants})}
-      <Count testCount={count} onDecrement={handleDecrement} onIncrement={handleIncrement}/>
+      {/* {console.log({plants})} */}
+      {/* <Count testCount={count} onDecrement={handleDecrement} onIncrement={handleIncrement}/> */}
       <AddPlantForm onNewPlant={addPlant} />
       <PlantsList plants={plants} onRemove={removePlant} />
     </div>
   );
 }
 
-// Hook - User hook that takes key (localStorage key) and uses or sets values
 
 
 export default App;
