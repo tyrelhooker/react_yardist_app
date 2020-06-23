@@ -3,29 +3,59 @@ import { v4 } from 'uuid';
 import AddPlantForm from './components/AddPlantForm';
 import PlantsList from './components/PlantsList';
 // import StaticPlants from './components/StaticPlants';
-import Count from './components/Count';
+// import Count from './components/Count';
 
 import './stylesheets/App.scss';
 
-function App({ staticPlantData }) {
-  const initializePlants = () => {
+function useLocalStorage(key, initialValue) {
+  // State to store value. Pass initial state function to useState so logic only used once.
+  const [storedValue, setStoredValue] = useState(() => {
     try {
-      const item = window.localStorage.getItem('storagePlants');
-
-      return JSON.parse(item) || [];
+      // Get value from local storage by it key
+      const item = window.localStorage.getItem(key);
+      // Parse stored JSON or if none return initial value
+      return item ? JSON.parse(item) : initialValue;
     } catch (error) {
-      console.log(error);
-      return [];
+      // If there is an error then return the initialValue
+      console.log(error)
+      return initialValue;
     }
-  }
-  const [plants, setPlants] = useState(initializePlants);
-  const [count, setCount] = useState(0);
+  });
 
-  const handleDecrement = () =>
-    setCount(currentCount => currentCount - 1);
+  const setValue = value => {
+    try {
+      // Allow value to be a function to have same API as useState
+      console.log(value);
+      const valueToStore = 
+        value instanceof Function ? value(storedValue) : value;
+      // Save state
+      setStoredValue(valueToStore);
+      window.localStorage.setItem(key, JSON.stringify(valueToStore));
+    } catch (error) {
+      console.log(error)
+    }
+  };
+
+  return [storedValue, setValue];
+}
+
+
+
+const App = () => {
+  // Plants
+  const [plants, setPlants] = useLocalStorage('storedPlants', []);
+  // const [count, setCount] = useState(initializeCount);
+
+  // const handleDecrement = () =>
+  //   setCount(currentCount => currentCount - 1);
   
-  const handleIncrement = () =>
-    setCount(currentCount => currentCount + 1);
+  // const handleIncrement = () =>
+  //   setCount(currentCount => currentCount + 1);
+  
+  // useEffect(() => {
+  //   localStorage.setItem('storedCount', JSON.stringify(count));
+  //   console.log(localStorage);
+  //   }, [count]);
 
   
 
@@ -53,12 +83,14 @@ function App({ staticPlantData }) {
 
   return (
     <div className="App">
-      {console.log({plants})}
-      <Count testCount={count} onDecrement={handleDecrement} onIncrement={handleIncrement}/>
+      {/* {console.log({plants})} */}
+      {/* <Count testCount={count} onDecrement={handleDecrement} onIncrement={handleIncrement}/> */}
       <AddPlantForm onNewPlant={addPlant} />
       <PlantsList plants={plants} onRemove={removePlant} />
     </div>
   );
 }
+
+
 
 export default App;
