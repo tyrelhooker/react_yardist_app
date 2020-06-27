@@ -17,18 +17,25 @@ const AddPlantForm = ({ onNewPlant= f=>f }) => {
 
   return (
     <form className='add-plant' onSubmit={submit}>
-      <input
-        ref={scientificNameInput}
-        type='text'
-        placeholder={`add a plant's scientific name`}
-        required
-      />
-      <input
-        ref={commonNameInput}
-        type='text'
-        placeholder={`add a plant's common name`}
-        required
-      />
+      <label>
+        Scientific Name:
+        <input
+          ref={scientificNameInput}
+          type='text'
+          placeholder={`add a plant's scientific name`}
+          required
+        />
+      </label>
+      <label>
+        Common Name:
+        <input
+          ref={commonNameInput}
+          type='text'
+          placeholder={`add a plant's common name`}
+          required
+        />
+      </label>
+      
       <button>ADD</button>
     </form>
   )
