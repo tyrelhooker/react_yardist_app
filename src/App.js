@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { v4 } from 'uuid';
+import SearchPlantForm from './components/SearchPlantForm'
 import AddPlantForm from './components/AddPlantForm';
 import PlantsList from './components/PlantsList';
 import './stylesheets/App.scss';
@@ -64,6 +65,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <SearchPlantForm />
       <AddPlantForm onNewPlant={addPlant} />
       <PlantsList plants={plants} onRemove={removePlant} />
     </div>
